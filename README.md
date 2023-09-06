@@ -8,7 +8,6 @@ An algorithm that predicts the impact of the earthquake on buildings.
 - [Motivation behind the Project](#motivation-behind-the-project)
 - [File Description](#file-description)
 - [Results](#results)
-- [Licensing, Authors, Acknowledgements](#licensing-authors-and-acknowledgements)
 
 ## Installation
 
@@ -26,7 +25,7 @@ To find the results we use:
 ## File Description
 
 This project includes one Jupyter Notebook with all code required for analyzing the data and creating a supervised 
-machine learning algorithm. The csv file contains 308854 people along with the following features:
+machine learning algorithm. The features are:
 
 - geo_levels (from largest (level_1) to most specific sub-region (level_3))
 - age (of the building)
@@ -48,4 +47,4 @@ machine learning algorithm. The csv file contains 308854 people along with the f
 
 We get:
 
-- **74.31%** accuracy using XGBClassifier.
+- **74.39%** accuracy using XGBClassifier.
