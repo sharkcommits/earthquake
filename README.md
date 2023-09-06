@@ -48,4 +48,4 @@ machine learning algorithm. The csv file contains 308854 people along with the f
 
 We get:
 
-- **94.89%** accuracy by using SMOTE and 10K-Fold
+- **74.31%** accuracy using XGBClassifier.
